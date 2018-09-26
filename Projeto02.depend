@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1537977707 source:/home/julio/Documents/CodeBlocks/Projeto02/main.cpp
+	<iostream>
+	"Apartamento.h"
+	"Imovel.h"
+	"SistemaImobiliaria.h"
+	"Endereco.h"
+	<list>
+
+1536771703 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Apartamento.cpp
+	"Apartamento.h"
+	<iostream>
+
+1536776488 /home/julio/Documents/CodeBlocks/Projeto02/include/Apartamento.h
+	"Imovel.h"
+	<string>
+	<sstream>
+
+1537381591 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Casa.cpp
+	"Casa.h"
+
+1537381750 /home/julio/Documents/CodeBlocks/Projeto02/include/Casa.h
+	"Imovel.h"
+	<string>
+	<sstream>
+
+1536461089 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Endereco.cpp
+	"Endereco.h"
+
+1536459129 /home/julio/Documents/CodeBlocks/Projeto02/include/Endereco.h
+	<string>
+
+1537377840 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Imovel.cpp
+	"Imovel.h"
+	"Apartamento.h"
+
+1537377752 /home/julio/Documents/CodeBlocks/Projeto02/include/Imovel.h
+	"Endereco.h"
+	<string>
+
+1537381588 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Terreno.cpp
+	"Terreno.h"
+
+1537381664 /home/julio/Documents/CodeBlocks/Projeto02/include/Terreno.h
+	"Imovel.h"
+	<string>
+	<sstream>
+
+1536591026 source:/home/julio/Documents/CodeBlocks/Projeto02/src/Util.cpp
+	"Util.h"
+	<fstream>
+
+1536517463 /home/julio/Documents/CodeBlocks/Projeto02/include/Util.h
+	"Imovel.h"
+	<string>
+
+1537977989 /home/julio/Documents/CodeBlocks/Projeto02/include/SistemaImobiliaria.h
+	"Imovel.h"
+	<list>
+	"GerenciadorPersistencia.h"
+
+1537748351 source:/home/julio/Documents/CodeBlocks/Projeto02/src/GerenciadorPersistencia.cpp
+	"GerenciadorPersistencia.h"
+	<fstream>
+	"Endereco.h"
+	"Apartamento.h"
+	"Casa.h"
+	"Terreno.h"
+	<stdlib.h>
+	<iostream>
+
+1537035268 /home/julio/Documents/CodeBlocks/Projeto02/include/GerenciadorPersistencia.h
+	"Imovel.h"
+	<string>
+	<list>
+
+1537977953 source:/home/julio/Documents/CodeBlocks/Projeto02/src/SistemaImobiliaria.cpp
+	"SistemaImobiliaria.h"
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
